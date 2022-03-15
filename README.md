@@ -5,6 +5,7 @@ A small github action used to test thing surrounding javascript github actions.
 ## Compilation
 
 To compile the action and bundle all dependencies into a single file, use the folowing command:
+
 `ncc build index.js --license licenses.txt`
 
 ## Inputs
