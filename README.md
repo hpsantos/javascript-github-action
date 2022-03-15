@@ -10,13 +10,13 @@ To compile the action and bundle all dependencies into a single file, use the fo
 
 ## Inputs
 
-## `who-to-greet`
+### `who-to-greet`
 
 **Required** The name of the person to greet. Default `"World"`.
 
 ## Outputs
 
-## `time`
+### `time`
 
 The time we greeted you.
 
