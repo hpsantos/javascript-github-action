@@ -12,9 +12,7 @@ try {
   console.log(
     `Pull request data: ${JSON.stringify(pull_request, undefined, 2)}`
   );
-  console.log(
-    `Event payload: ${JSON.stringify(github.context.payload, undefined, 2)}`
-  );
+  console.log(`Event context: ${JSON.stringify(github.context, undefined, 2)}`);
 } catch (error) {
   core.setFailed(error.message);
 }
