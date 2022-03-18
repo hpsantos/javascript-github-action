@@ -1,6 +1,6 @@
 # Hello world javascript action
 
-A small github action used to test thing surrounding javascript github actions.
+A small Github action used to test thing surrounding javascript github actions.
 
 ## Compilation
 
